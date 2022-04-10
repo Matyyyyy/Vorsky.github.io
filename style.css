@@ -9,12 +9,56 @@ a {
     font-family: "Roboto";
 }
 
+.mainheader {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+header {
+    width: 100vw;
+    text-align: center;
+}
 .vorskylogo {
-    height: 200px;
-    width: 300px;
+    height: 7%;
+    width: 7%;
+    position: absolute;
+    left: 45%;
+    top: 2%;
+}
+
+.overlay {
+    top: 0;
+    height: 10vh;
+    width: 100vw;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.3);
 }
 
 .topnav {
+    width: 100vw;
+    position: absolute;
     display: flex;
-    flex-direction: row;    
+    flex-direction: row; 
+    justify-content: flex-end; 
+    top: 5%;
+    right: 5%;
+}
+
+.topnav a {
+    padding: 0 2.5% 0 0;
+    font-size: 25px;
+    color: white;
+}
+
+.mainheader #officebuilding {
+    height: 100%;
+    width: 100%;
+    
+}
+
+.zjistitvice {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
 }

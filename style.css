@@ -2,3 +2,19 @@
     margin: 0;
     padding: 0;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto";
+}
+
+.vorskylogo {
+    height: 200px;
+    width: 300px;
+}
+
+.topnav {
+    display: flex;
+    flex-direction: row;    
+}
